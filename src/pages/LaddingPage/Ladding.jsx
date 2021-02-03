@@ -23,9 +23,7 @@ import article02 from '../../assets/images/Articles/article02.png';
 import article03 from '../../assets/images/Articles/article03.png';
 import item00 from '../../assets/images/carousel/img00.png';
 
-import bg_left from '../../assets/images/items/bg_left.png';
-import bg_right from '../../assets/images/items/bg_right.png';
-import element from '../../assets/images/items/element.png';
+
 
 export default function Ladding() {
     return (
@@ -39,7 +37,7 @@ export default function Ladding() {
                         healthcare, accessible on mobile and online<br />
                     for everyone</p>
 
-                        <a className="btn-primary" href="#">Consult today</a>
+                        <a className="btn-primary" href="/">Consult today</a>
                     </div>
                     <div className="home__right">
                         <img src={illustration} alt="img right" />
@@ -118,7 +116,7 @@ export default function Ladding() {
                         </p>
                         </div>
                     </div>
-                    <a className="btn-outline" href="#">Learn more</a>
+                    <a className="btn-outline" href="/">Learn more</a>
 
                 </div>
                 
@@ -137,7 +135,7 @@ export default function Ladding() {
                                 everyone. To us, it’s not just work. We take pride<br />
                                 in the solutions we deliver
                     </p>
-                            <a className="btn-outline" href="#">Learn more</a>
+                            <a className="btn-outline" href="/">Learn more</a>
                         </div>
                     </div>
 
@@ -152,7 +150,7 @@ export default function Ladding() {
                                 instantaneously (no tedeous form, long calls,<br />
                                 or administrative hassle) and securely
                     </p>
-                            <a className="btn-outline" href="#">Download</a>
+                            <a className="btn-outline" href="/">Download</a>
 
                         </div>
                         <div className="box__right">
@@ -230,7 +228,7 @@ export default function Ladding() {
                              laboratory is very important to do<br />
                             a disease detection...
                             </p>
-                            <a className="a-blue">Read more</a>
+                            <a href="/" className="a-blue">Read more</a>
                         </div>
 
                         <div className="article">
@@ -244,7 +242,7 @@ export default function Ladding() {
                             at this time because of its very good <br />
                             for your health...
                             </p>
-                            <a className="a-blue">Read more</a>
+                            <a href="/" className="a-blue">Read more</a>
                         </div>
 
                         <div className="article">
@@ -258,11 +256,11 @@ export default function Ladding() {
                             now and also for your skin health.<br />
                             There are some...
                             </p>
-                            <a className="a-blue">Read more</a>
+                            <a href="/" className="a-blue">Read more</a>
                         </div>
                     </div>
 
-                    <a className="btn-outline" href="#">View all</a>
+                    <a className="btn-outline" href="/">View all</a>
                 </div>
             </div>
             <Footer />
