@@ -1,0 +1,436 @@
+.home__section {
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+}
+
+.home__right {
+    width: 50%;
+}
+
+.home__right img {
+    width: 100%;
+}
+
+
+.home__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.home__left h1 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+
+.home__left p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+
+    margin-top: 20px;
+}
+
+
+/* serviços */
+
+.service__section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+
+}
+
+.service__title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+    margin-bottom: 100px;
+}
+
+.service__title h1 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.service__text p {
+    font-family: Mulish;
+    color: #7D7987;
+    font-size: 16px;
+}
+
+.service__content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.services {
+    width: 350px;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 15px;
+    background-color: #fff;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+
+}
+
+.services img {
+    width: 40px;
+    height: 45px;
+    margin-bottom: 30px;
+}
+
+
+
+.services span,
+.services p {
+    font-family: Mulish;
+}
+
+.services span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+.services p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+.service__divider {
+    width: 5%;
+    height: 2px;
+    background: #000;
+
+    margin: 15px 0;
+}
+
+
+/* download */
+
+.download__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+
+}
+
+.download__box {
+    display: flex;
+    width: 100%;
+
+}
+
+.box__left {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.box__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.box__left img,
+.box__right img {
+    width: 100%;
+}
+
+.box__right p,
+.box__right h1,
+.box__left p,
+.box__left h1 {
+    font-family: Mulish;
+}
+
+.box__right p,
+.box__left p {
+    color: #7D7987;
+}
+
+
+/* saying__section */
+
+
+.saying__section {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+
+}
+
+
+.saying__carousel {
+    width: 1120px;
+
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    padding: 60px 10px 60px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+
+
+
+}
+
+
+
+.saying_header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.saying_header .service__divider {
+    background-color: #fff;
+}
+
+.saying_header h3 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.carousel_item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.item__profile {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+
+}
+
+
+
+.profile_info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.profile_info p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+
+    color: rgba(255, 255, 255, 0.85);
+
+    mix-blend-mode: normal;
+
+    margin-left: 20px;
+
+
+
+}
+
+.profile_info p:first-child {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    /* identical to box height, or 218% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.item__profile img {
+    width: 141px;
+
+}
+
+.depo_profile {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.depo_profile p {
+    width: 100%;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    /* or 158% */
+
+
+    color: rgba(255, 255, 255, 0.9);
+
+    mix-blend-mode: normal;
+}
+
+/* article__section */
+
+.article__section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.article__section .btn-outline {
+    margin: 100px 0 200px 0;
+}
+
+.article__section h1 {
+    font-family: Mulish;
+}
+
+.article__title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+
+    mix-blend-mode: normal;
+    margin: 15px 0;
+}
+
+.articles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.article {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+
+}
+
+.article span,
+.article p,
+.article a {
+    margin-left: 15px;
+}
+
+.article p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+
+/** elements pages **/
+
+
+.bg_effects {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.bg_effects #effect_left {
+    position: relative;
+    left: 0;
+    top: 1040px;
+}
+
+.bg_effects #element {
+    position: relative;
+    right: -560px;
+     top: 700px; 
+}
+
+.bg_effects #effect_right {
+    position: relative;
+    right: -361px;
+     top: 3800px;
+}

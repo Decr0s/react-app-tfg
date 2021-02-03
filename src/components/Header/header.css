@@ -1,0 +1,45 @@
+
+
+.header .header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu .logo {
+    width: 160px;
+    height: 41px;
+}
+
+.header__menu ul {
+    background-color: #fff;
+
+}
+
+.header__menu ul li {
+    display: inline-block;
+    margin: 12px;
+}
+
+.header__menu ul li a {
+    text-decoration: none;
+    color: #1F1534;
+    font-size: 18px;
+    font-weight: normal;
+    opacity: 0.5;
+    line-height: 23px;
+    font-style: normal;
+    font-family: Mulish;
+}
+.header__menu ul li a:hover{
+    opacity: 0.95;
+}
+.active a {
+    opacity: 100 !important;
+    color: #1F1534 !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 18px;
+    line-height: 23px;
+}
+
